@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "ida-pro-mcp": {
+      "command": "/mnt/persist/workspace/.venv/bin/python3",
+      "args": [
+        "/mnt/persist/workspace/src/ida_pro_mcp/server.py"
+      ],
+      "timeout": 1800,
+      "disabled": false,
+      "description": "IDA Pro MCP Server for reverse engineering analysis",
+      "capabilities": [
+        "Function analysis and decompilation",
+        "Memory operations and data reading", 
+        "Variable management and renaming",
+        "Cross-reference analysis",
+        "String and import listing",
+        "Type management",
+        "Debugging operations (with --unsafe flag)"
+      ]
+    }
+  }
+}
